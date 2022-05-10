@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>matrix</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="matrix.css">
+	<script type="application/javascript" src="matrix.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div class="m">
+			<div class="ligne 1">
+				<input type="number" name="indice 11" class = "mat1">
+				<input type="number" name="indice 12" class = "mat1">
+				<input type="number" name="indice 13" class = "mat1">
+			</div>
+			<div class="ligne 2">
+				<input type="number" name="indice 21" class = "mat1">
+				<input type="number" name="indice 22" class = "mat1">
+				<input type="number" name="indice 23" class = "mat1">
+			</div>
+			<div class="ligne 3">
+				<input type="number" name="indice 31" class = "mat1">
+				<input type="number" name="indice 32" class = "mat1">
+				<input type="number" name="indice 33" class = "mat1">
+			</div>
+		</div>
+		<div class="taille">
+			<label>nombre de ligne</label><input type="number" id="lm1">
+			<label>nombre de colonne</label><input type="number" id="cm1">
+		</div>
+		<div class="m">
+			<div class="ligne 1">
+				<input type="number" name="indice 11" class = "mat2">
+				<input type="number" name="indice 12" class = "mat2">
+				<input type="number" name="indice 13" class = "mat2">
+			</div>
+			<div class="ligne 2">
+				<input type="number" name="indice 21" class = "mat2">
+				<input type="number" name="indice 22" class = "mat2">
+				<input type="number" name="indice 23" class = "mat2">
+			</div>
+			<div class="ligne 3">
+				<input type="number" name="indice 31" class = "mat2">
+				<input type="number" name="indice 32" class = "mat2">
+				<input type="number" name="indice 33" class = "mat2">
+			</div>
+	</div>
+		<div class="taille">
+			<label>nombre de ligne</label><input type="number" id="lm2">
+			<label>nombre de colonne</label><input type="number" id="cm2">
+		</div>
+		<input type="button" value="entrer" onclick="affichage()">
+	</div>
+	<div id="bouton">
+	<input type="button" value="additionner" onclick="somme()">
+		<input type="button" value="multiplier" onclick="produit()">
+		<input type="button" value="transposer" onclick="transposer()">
+	</div>
+	<div id="rep">
+	<div id = "para" class="alig"> </div>
+	</div>
+</body>
+</html>
